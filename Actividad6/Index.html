@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio de grillas</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<style type="text/css">
+	
+	.row {
+		clear: both;
+	}
+
+	.col-md-1, .col-md-2, .col-md-3, 
+	.col-sm-1, .col-sm-2, .col-sm-3 {
+		float: left;
+		}
+
+	.main {
+		box-sizing: border-box;
+		color: white;
+		background-color: rgb(144, 190, 73);
+		font-family: "Raleway";
+		text-align: center;
+		font-size: 50px;
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
+	.col-md-1 {
+		margin-top: 50px;
+		width: 33%;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-family: "Raleway";
+		box-sizing: border-box;
+		font-size: 0,6rem;
+		}
+
+	.col-md-2 {
+		margin-top: 50px;
+		width: 33%;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-family: "Raleway";
+		box-sizing: border-box;
+		font-size: 0,6rem;
+		}
+
+	.col-md-3 {
+		margin-top: 50px;
+		width: 33%;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-family: "Raleway";
+		box-sizing: border-box;
+		font-size: 0,6rem;
+		}
+
+	.col-sm-1 {
+		margin-top: 50px;
+		width: 33%;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-family: "Raleway";
+		box-sizing: border-box;
+		font-size: 0,6rem;
+		}
+
+	.col-sm-2 {
+		margin-top: 50px;
+		width: 33%;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-family: "Raleway";
+		box-sizing: border-box;
+		font-size: 0,6rem;
+		}
+
+	.col-sm-3 {
+		margin-top: 50px;
+		width: 33%;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-family: "Raleway";
+		box-sizing: border-box;
+		font-size: 0,6rem;
+		}
+	
+	@media (max-width: 480px) { 
+		.col-sm-1{width: 33%;
+		}
+		.col-sm-2{width: 67%;
+		}
+		.col-sm-3{width: 100%;
+		}
+	}
+
+	@media (min-width: 481px) { 
+		.col-md-1{width: 13%;
+		}
+		.col-md-2{width: 67%;
+		}
+		.col-md-3{width: 100%;
+		}
+	}
+
+	</style>
+</head>
+
+<body>
+
+<div class="main">
+	<p> HOLA !! </p> 
+	<p> ESTE ES UN EJERCICIO DE GRILLAS </p>
+</div>
+
+<div class="row">
+	<div class="col-md-1, col-sm-1" style="float: left;">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfS_Bia8sqGFYp-qndJ_eHllQsDsclnU6xth6cZnjgW2hvA6YB" style="box-sizing: border-box;">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	</div>
+	
+	<div class="col-md-1, col-sm-2" style="float: left;">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfS_Bia8sqGFYp-qndJ_eHllQsDsclnU6xth6cZnjgW2hvA6YB" style="box-sizing: border-box;">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	</div>
+	
+	<div class="col-md-1, col-sm-3" style="float: left;">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfS_Bia8sqGFYp-qndJ_eHllQsDsclnU6xth6cZnjgW2hvA6YB" style="box-sizing: border-box;">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	</div>
+
+</div>
+</body>
+</html>
